@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  ai-call-agent:
+    build:
+      context: ./Call-Agent/FastAPI
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8000
+    env_file:
+      - ./Call-Agent/FastAPI/.env
+    volumes:
+      - ./Call-Agent/FastAPI:/app
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
