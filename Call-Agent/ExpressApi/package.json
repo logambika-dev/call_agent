@@ -1,0 +1,29 @@
+{
+  "name": "expressapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@prisma/client": "^7.4.1",
+    "aws-jwt-verify": "^5.1.1",
+    "axios": "^1.13.5",
+    "bullmq": "^5.70.1",
+    "express": "^5.2.1",
+    "googleapis": "^171.4.0",
+    "jsonwebtoken": "^9.0.3",
+    "nodemailer": "^8.0.1",
+    "passport": "^0.7.0",
+    "passport-custom": "^1.1.1",
+    "prisma": "^7.4.1",
+    "socket.io": "^4.8.3",
+    "winston": "^3.19.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "C:\\Users\\Akash K\\Desktop\\Call-Agent\\ExpressApi\\logs\\.849bdd5f846ce1e5ef2ad46065bd19e4b04cc492-audit.json",
+    "files": [
+        {
+            "date": 1772106481107,
+            "name": "C:\\Users\\Akash K\\Desktop\\Call-Agent\\ExpressApi\\logs\\error-2026-02-26.log",
+            "hash": "dd80e9e98bc901a49b41a71bd2edc855601eb969672c9f40ff843011129dcb85"
+        }
+    ],
+    "hashType": "sha256"
+}
